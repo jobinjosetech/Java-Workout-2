@@ -22,7 +22,7 @@ public class InstanceTracker {
         t1 = null;
         //call garbage collector.
         System.gc();
-        Runtime.getRuntime().gc();
+//        Runtime.getRuntime().gc();
         //display Instances created, destroyed and live information.
         System.out.println(String.format("Instances created: %d", createdCounter));
         System.out.println(String.format("Instances live: %d", liveCounter));
